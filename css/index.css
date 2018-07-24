@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.header {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #000;
+    display: flex;
+}
+
+.header .menu {
+    flex-basis: 50px;
+    font-size: 20px;
+    color: #f58b81;
+    /* display: flex; */
+    margin-left: 5px;
+    align-self: center;
+}
+
+.header .title {
+    flex: 1;
+    text-align: center;
+    align-self: center;
+}
+
+.header .search {
+    flex-basis: 50px;
+    font-size: 20px;
+    color: #f58b81;
+    /* display: flex; */
+    text-align: center;
+    align-self: center;
+}
+
+.slider {
+    width: 100%;
+    height: 200px;
+}
+
+
+
+.nav {
+    width: 100%;
+    height: 450px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.nav .navList {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav .navList span {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav span:nth-child(1),
+.nav span:nth-child(2),
+.nav span:nth-child(3) {
+    border-right: 1px solid #000;
+}
+
+.nav .line {
+    border-bottom: 2px solid #ff0000;
+
+}
+
+.contentList {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contentList .content {
+    width: 48%;
+    height: 48%;
+    position: relative;
+}
+
+.content1 {
+    background-color: yellow;
+}
+
+.content2 {
+    background-color: purple;
+}
+
+.content3 {
+    background-color: skyblue;
+}
+
+.content4 {
+    background-color: pink;
+}
+
+.content img {
+    background-color: red;
+    width: 100%;
+    height: 70%;
+}
+
+.content .descrip {
+    width: 100%;
+    height: 15%;
+    background-color: green;
+    position: absolute;
+    top: 70%;
+}
+
+.content .title {
+    width: 100%;
+    height: 15%;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
